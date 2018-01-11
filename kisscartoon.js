@@ -3,7 +3,7 @@
 
 // CONFIG
 var siteName = "KissCartoon"
-var rootUrl = 'http://kisscartoon.es'
+var rootUrl = 'https://kisscartoon.es'
 var URL = window.location.origin
 // END CONFIG
 
