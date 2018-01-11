@@ -3,7 +3,7 @@
 
 // CONFIG
 var siteName = "KissCartoon"
-var rootUrl = 'http://kisscartoon.se'
+var rootUrl = 'http://kisscartoon.es'
 var URL = window.location.origin
 // END CONFIG
 
@@ -55,11 +55,11 @@ do {
 
 var videoQuality = prompt(
 	"Enter video quality preferences for the download. Example - '720,480'\nThis first looks for 720p, if 720 is not available, it picks 480.", 
-	defaultText="720,480"
+	defaultText="1080,720,480"
 );
 
 if (videoQuality == null){
-	videoQuality = "720,480,360";
+	videoQuality = "1080,720,480,360";
 }
 
 var opOptions = prompt(
